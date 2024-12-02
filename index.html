@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Piedra, Papel o Tijera!</title>
+    <!-- SEO Meta Tags -->
+    <meta name="descripcion" content="Juego de piedra, papel o tijera con JavaScript"/>
+    <meta name="keywords" content="HTML, CSS y JavaScript"/>
+    <meta name="autora" content="Irene Alonso"/>
+    <!-- Enlazamos la hoja de estilo -->
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+</head>
+<body>
+    <h1>Piedra, Papel o Tijera</h1>
+    <div class="opciones">
+        <button onclick="empezarJuego('piedra')" id="botonPiedra">Piedra</button>
+        <button onclick="empezarJuego('papel')" id="botonPapel">Papel</button>
+        <button onclick="empezarJuego('tijera')" id="botonTijera">Tijera</button>
+    </div>
+    <div id="resultado"></div>
+    <div id="puntos">Jugador: 0 | Máquina: 0</div>
+    <!-- Enlazamos con el archivo de JavaScript -->
+     <script src="script.js"></script>
+</body>
+</html>
