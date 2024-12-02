@@ -1,2 +1,2 @@
 <p>En este proyecto realizamos el juego de piedra, papel o tijera con JavaScript, HTML y CSS.</p>
-<p>Mira el resultado y como funciona aquí: <a href="https://ireneac98.github.io/piedra_papel_tijera/"> </a></p>
+<p>Mira el resultado y como funciona aquí: <a href="https://ireneac98.github.io/piedra_papel_tijera/">piedra,papel o tijera </a></p>
