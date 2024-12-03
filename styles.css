@@ -12,6 +12,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(221, 18, 170);
     background-color: black;
+    text-align: center;
 }
 
 h1{
@@ -27,6 +28,7 @@ p{
     margin-bottom: 40px;
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .botones button{
@@ -36,6 +38,7 @@ p{
     font-size: 2.5rem;
     padding: 15px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .botones button:hover{
@@ -58,3 +61,33 @@ p{
     font-size: 2rem;
 }
 
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; 
+    }
+
+    p {
+        font-size: 1.2rem; 
+    }
+
+    .botones {
+        flex-direction: column; 
+        gap: 15px;
+    }
+
+    .botones button {
+        font-size: 1.8rem; 
+        padding: 10px; 
+        width: 100%; 
+        max-width: 300px; 
+    }
+
+    #resultado {
+        font-size: 1.2rem; 
+    }
+
+    #puntos {
+        font-size: 1.5rem; 
+    }
+}
