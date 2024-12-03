@@ -12,15 +12,18 @@
     <link rel="stylesheet" href="styles.css" type="text/css"/>
 </head>
 <body>
-    <h1>Piedra, Papel o Tijera</h1>
-    <p>¿Juegas? ¡Selecciona una opción!</p>
-    <div class="botones">
-        <button onclick="empezarJuego('piedra')" id="botonPiedra">Piedra</button>
-        <button onclick="empezarJuego('papel')" id="botonPapel">Papel</button>
-        <button onclick="empezarJuego('tijera')" id="botonTijera">Tijera</button>
+    <div class="contenedor">
+        <h1>Piedra, Papel o Tijera</h1>
+        <p>¿Juegas? ¡Selecciona una opción!</p>
+        <div class="botones">
+            <button onclick="empezarJuego('piedra')" id="botonPiedra">Piedra</button>
+            <button onclick="empezarJuego('papel')" id="botonPapel">Papel</button>
+            <button onclick="empezarJuego('tijera')" id="botonTijera">Tijera</button>
+        </div>
+
+        <div id="resultado"></div>
+        <div id="puntos">Jugador: 0 | Máquina: 0</div>
     </div>
-    <div id="resultado"></div>
-    <div id="puntos">Jugador: 0 | Máquina: 0</div>
     <!-- Enlazamos con el archivo de JavaScript -->
      <script src="script.js"></script>
 </body>
