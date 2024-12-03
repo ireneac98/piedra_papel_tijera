@@ -42,6 +42,12 @@ p{
     background-color: gray;
 }
 
+.botones button:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
 #resultado{
     margin-top: 15px;
     margin-bottom: 20px;
